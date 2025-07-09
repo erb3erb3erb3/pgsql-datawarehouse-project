@@ -32,6 +32,16 @@ BEGIN
 	BEGIN
 		--- Declare batch_start to be used for batch duration calculation ---
 		batch_start := clock_timestamp();
+
+
+		RAISE NOTICE '========================================';
+		RAISE NOTICE 'Loading the Silver Layer';
+		RAISE NOTICE '========================================';
+		
+		
+		RAISE NOTICE '----------------------------------------';
+		RAISE NOTICE 'Loading CRM Tables';
+		RAISE NOTICE '----------------------------------------';
 		
 	
 		/* 
@@ -206,7 +216,11 @@ BEGIN
 
 		=========================================================================
 		*/
-
+		
+		RAISE NOTICE '----------------------------------------';
+		RAISE NOTICE 'Loading ERP Tables';
+		RAISE NOTICE '----------------------------------------';
+	
 		--- Set start_time to calculate load duration ---
 		start_time := clock_timestamp();
 		
