@@ -3,7 +3,7 @@
 Silver Quality Checks
 ===============================================================================
 Script Purpose:
-    This script performs a series of data quality checks on the 'Silver layer' tables to ensure the integrity, 
+    This script performs a series of data quality checks on the 'Silver Layer' tables to ensure the integrity, 
     completeness, and consistency of critical data elements. It includes checks for:
     - Null or duplicate primary keys.
     - Unwanted spaces in string fields.
