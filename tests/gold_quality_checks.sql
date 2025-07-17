@@ -3,7 +3,7 @@
 Gold Quality Checks
 ===============================================================================
 Script Purpose:
-    This script performs a series of data quality checks on the gold layer views to ensure the integrity, 
+    This script performs a series of data quality checks on the 'Gold Layer' views to ensure the integrity, 
     completeness, and consistency of critical data elements.
     These checks ensure:
     - Uniqueness of surrogate keys in dimension tables.
@@ -11,7 +11,7 @@ Script Purpose:
     - Validation of relationships in the data model for analytical purposes.
 
 Usage Notes:
-    - Run this script after creating the 'Gold layer' views.
+    - Run this script after creating the 'Gold Layer' views.
     - Investigate and resolve any discrepancies found during the checks.
 ===============================================================================
 */
