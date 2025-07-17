@@ -3,8 +3,8 @@
 Silver Quality Checks
 ===============================================================================
 Script Purpose:
-    This script performs various quality checks for data consistency, accuracy, 
-    and standardization across the 'silver' layer. It includes checks for:
+    This script performs a series of data quality checks on the 'Silver layer' tables to ensure the integrity, 
+    completeness, and consistency of critical data elements. It includes checks for:
     - Null or duplicate primary keys.
     - Unwanted spaces in string fields.
     - Data Standardization & Consistency.
@@ -12,7 +12,7 @@ Script Purpose:
     - Data consistency between related fields.
 
 Usage Notes:
-    - Run these checks after data loading Silver Layer.
+    - Run these checks after data loading 'Silver Layer'.
     - Investigate and resolve any discrepancies found during the checks.
 ===============================================================================
 */
